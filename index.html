@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritam Samanta | Portfolio Website</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/d7206f94a3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/black_bg_logo-removebg-preview.png" class="logo" alt="Name Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hey, I am <span>Ritam</span> <br> from India !</h1>
+                <p>and I am a passionate <br><span class="auto-type"></span></p>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------ABOUT SECTION------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/user.png" alt="Author">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm Ritam Samanta, a 14-year-old boy with a passion for coding and a love for physics. I excel
+                        in web development, with expertise in HTML, CSS, and JavaScript. My intermediate level of Python
+                        allows me to tackle various programming challenges. I'm seeking work experiences to expand my
+                        skills and contribute to impactful projects. Let's collaborate and explore the exciting realms
+                        of coding and physics!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" data-tab="skills">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" data-tab="experience">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" data-tab="education">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Et, exercitationem.</li>
+                            <li><span>Web Designer</span><br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Labor</li>
+                            <li><span>Team Management</span> <br> Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Deleniti, eligendi.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Looking for as much Experience as possible :)</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Studying at Class 8</span> <br> Currently, I am in class 8 in St. Augustine's Day
+                                School (Budge Budge)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------SERVICES---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eum repellat eos laudantium
+                        eligendi natus doloremque voluptas minima pariatur vitae quod libero facere veritatis mollitia
+                        qui hic necessitatibus dolore, sunt tempora similique! Rem, suscipit.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-swatchbook"></i>
+                    <h2>Web Dev</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eum repellat eos laudantium
+                        eligendi natus doloremque voluptas minima pariatur vitae quod libero facere veritatis mollitia
+                        qui hic necessitatibus dolore, sunt tempora similique! Rem, suscipit.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Programming</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eum repellat eos laudantium
+                        eligendi natus doloremque voluptas minima pariatur vitae quod libero facere veritatis mollitia
+                        qui hic necessitatibus dolore, sunt tempora similique! Rem, suscipit.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h2>Article Writing</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eum repellat eos laudantium
+                        eligendi natus doloremque voluptas minima pariatur vitae quod libero facere veritatis mollitia
+                        qui hic necessitatibus dolore, sunt tempora similique! Rem, suscipit.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-blogger"></i>
+                    <h2>Blog Writing</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eum repellat eos laudantium
+                        eligendi natus doloremque voluptas minima pariatur vitae quod libero facere veritatis mollitia
+                        qui hic necessitatibus dolore, sunt tempora similique! Rem, suscipit.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Prompting</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, eum repellat eos laudantium
+                        eligendi natus doloremque voluptas minima pariatur vitae quod libero facere veritatis mollitia
+                        qui hic necessitatibus dolore, sunt tempora similique! Rem, suscipit.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------PORTFOLIO---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quae.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quae.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work">
+                    <div class="layer">
+                        <h3>Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quae.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------------------CONTACT---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ritamsamanta@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9163532640</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100091230982105"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/RitAm-DeV"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/rsritam_0135/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/QweetsofKesh"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/ritam-samanta-745521271/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Ritam | Made by Ritam Samanta</p>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="/script.js"></script>
+
+</html>
